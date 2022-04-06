@@ -1,0 +1,53 @@
+
+@use "sass:math";
+
+$fontes: Raleway, sans-serif;
+$fonte-grande:32px;
+$cor-verde1: #D6F98B;
+$cor-verde2: #CCF476;
+
+$altura-nav:50px;
+$altura-titulo:60px;
+
+.titulo{
+    // color:red;
+    background-color: $cor-verde2;
+    width: 100%;
+    height: $altura-titulo;
+    line-height: $altura-titulo;
+    text-align: center;
+
+    font-family: $fontes;
+    font-weight: 800;
+    font-size: $fonte-grande;
+        // border: 2px black solid;
+}
+
+
+.navegacao{
+    // color:red;
+    // border: 2px red solid;
+    background-color: $cor-verde1;
+    height: $altura-nav;
+}
+
+
+
+.navegacao_rodape{
+    // color:red;
+    // border: 2px red solid;
+    align-self: flex-end;
+    background-color: $cor-verde1;
+    height: $altura-nav;
+    
+}
+
+
+
+.conteudo{
+
+
+    height: calc(100% - (2*$altura-nav + $altura-titulo));
+    
+    // height:85vh;
+}
