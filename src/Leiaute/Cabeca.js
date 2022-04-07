@@ -1,4 +1,5 @@
 
+import Navegacao from '../Arranjos/Navegacao'
 import styles from '../styles/arranjos.module.css'
 // import { Heading, Flex } from '@chakra-ui/react'
 
@@ -14,9 +15,7 @@ const Cabeca = () => {
             <div className={styles.titulo} >
                     Célula Solidária
                 </div>
-                <div className={styles.navegacao} >
-                    Navegacao
-                </div>
+                <Navegacao/>
                 {/* <div className={styles.bordado1} >
                     Bordado
                 </div> */}

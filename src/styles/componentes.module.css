@@ -1,6 +1,14 @@
 .botao {
-  width: 1/6;
-  height: 100%;
+  width: 16.6666666667vw;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #EDFFC7;
+  border-width: 20px;
+}
+
+.botao:hover {
+  background-color: #CCF476;
 }
 
 /*# sourceMappingURL=componentes.module.css.map */

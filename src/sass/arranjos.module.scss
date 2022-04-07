@@ -12,6 +12,8 @@ $fonte-reey: Reey;
 $fonte-grande:32px;
 $cor-verde1: #D6F98B;
 $cor-verde2: #CCF476;
+$cor-fundo: #EDFFC7;
+
 $cor-marrom: #FCDB86;
 $cor-marrom-escuro: #BC770F;
 
@@ -37,9 +39,10 @@ $altura-titulo:60px;
 .navegacao{
     // color:red;
     // border: 2px red solid;
-    
-    background-color: $cor-verde2;
-    
+    display: flex;
+    flex-direction: row;
+    background-color: $cor-verde1;
+    background-color: $cor-fundo;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.6rem;
     height: $altura-nav;

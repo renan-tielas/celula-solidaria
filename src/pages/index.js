@@ -10,25 +10,22 @@ import styles from '../styles/layout.module.css'
 export default function Home({ isConnected }) {
   return (
     // <ChakraProvider>
-        <main className={styles.corpo} >
-      {/* <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head> */}
+    <main className={styles.corpo} >
+      <Head>
+        <title>Célula Solidária</title>
+        <link rel="icon" href="/favicon.ico" />   {/* //icone */}
+        <meta>  ???? </meta>
+      </Head>
+
+
       <Cabeca />
-      <Conteudo/>
+      <Conteudo />
 
-      {/* <main> */}
+      <Rodape />
+    </main>
 
-        {/* <div className='flex1' align='center' justify='center'> */}
 
-      
-            <Rodape/>
-          </main>
 
-     
-
-    // </ChakraProvider>
 
   )
 }
