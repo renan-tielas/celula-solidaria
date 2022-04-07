@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import clientPromise from '../../lib/mongodb'
-import Cabeca from '../Arranjos/Cabeca'
+import Cabeca from '../Leiaute/Cabeca'
 import Conteudo from '../Arranjos/Conteudo'
 import Rodape from '../Arranjos/Rodape'
 import styles from '../styles/layout.module.css'

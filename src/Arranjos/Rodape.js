@@ -12,8 +12,12 @@ const Rodape = () => {
         <div>
             {/* <div className={styles.containerFlex2} align="center" mr={5}> */}
  
+            <div className={styles.bordado1} >
+                  
+                </div>
+
                 <div className={styles.navegacao_rodape} >
-                    Rodape
+               
                 </div>
 
             {/* </div> */}

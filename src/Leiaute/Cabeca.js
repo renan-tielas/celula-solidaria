@@ -1,4 +1,4 @@
-import React from "react";
+
 import styles from '../styles/arranjos.module.css'
 // import { Heading, Flex } from '@chakra-ui/react'
 
@@ -17,6 +17,10 @@ const Cabeca = () => {
                 <div className={styles.navegacao} >
                     Navegacao
                 </div>
+                {/* <div className={styles.bordado1} >
+                    Bordado
+                </div> */}
+                
 
             {/* </div> */}
         </div>
