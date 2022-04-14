@@ -1,14 +1,13 @@
 import Head from 'next/head'
 import clientPromise from '../../lib/mongodb'
 import Cabeca from '../Leiaute/Cabeca'
-import Conteudo from '../Arranjos/Conteudo'
+import Quadros from '../Arranjos/Quadros'
 import Rodape from '../Arranjos/Rodape'
 import styles from '../styles/layout.module.css'
 
 
 
 export default function Home({ isConnected }) {
-
   return (
     // <ChakraProvider>
     <main className={styles.corpo} >
@@ -18,11 +17,13 @@ export default function Home({ isConnected }) {
         {/* <meta>  ???? </meta> */}
       </Head>
 
+
+
       <Cabeca />
-      <Conteudo />
+      
+      <Quadros />
 
       <Rodape />
-      
     </main>
 
 

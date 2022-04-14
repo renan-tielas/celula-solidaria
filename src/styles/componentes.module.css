@@ -9,6 +9,14 @@
 
 .botao:hover {
   background-color: #CCF476;
+  cursor: pointer;
+}
+
+.cartao_pessoal {
+  border: green solid 2px;
+  height: 60%;
+  width: 100%;
+  justify-self: center;
 }
 
 /*# sourceMappingURL=componentes.module.css.map */

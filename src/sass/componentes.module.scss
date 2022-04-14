@@ -23,4 +23,13 @@ border-width: 20px;
 }
 .botao:hover{
     background-color: $cor-verde2;
+    cursor: pointer;
+}
+
+
+.cartao_pessoal{
+    border:green solid 2px;
+    height:60%;
+    width: 100%;
+    justify-self: center ;
 }

@@ -1,5 +1,5 @@
 
-import styles from '../styles/arranjos.module.css'
+import styles from '../styles/layout.module.css'
 // import { Heading, Flex } from '@chakra-ui/react'
 
 

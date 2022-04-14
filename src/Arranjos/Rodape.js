@@ -1,5 +1,6 @@
 import React from "react";
-import styles from '../styles/arranjos.module.css'
+import styles from '../styles/layout.module.css'
+
 // import { Heading, Flex } from '@chakra-ui/react'
 
 
@@ -16,8 +17,22 @@ const Rodape = () => {
                   
                 </div>
 
-                <div className={styles.navegacao_rodape} >
-               
+                <div className={styles.rodape} >
+                    <div className={styles.secao_1}>
+                    A agricultura familiar trás a única comida de verdade à sua mesa.<br/>
+                    Conheça e, principalmente, prove. <br/>Mais nutritiva, sem veneno, e mais gostosa!
+                    </div>
+                    <div>
+                    aj slkaj slka jslk alksjlaljkajklajksjsajlksla sjl
+                    </div>
+                    <div>
+                    aj slkaj slka jslk alksjlaljkajklajksjsajlksla sjl
+                    </div>
+                    <div>
+                    aj slkaj slka jslk alksjlaljkajklajksjsajlksla sjl
+                    </div>
+         
+                  
                 </div>
 
             {/* </div> */}
